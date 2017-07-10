@@ -5,7 +5,7 @@ If the gcloud SDK is not present on your machine, this package will install it. 
 
 ## Use
 ```
-npm install -g @google-cloud/gcloud-cli
+npm install -g @google-cloud/cloud-sdk
 ```
 
 ## Dependencies
