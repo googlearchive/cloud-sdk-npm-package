@@ -19,6 +19,7 @@ This package has several caveats:
  - On Windows, this package installs a specific version of the gcloud SDK if no existing installation is detected. Otherwise, it installs (or updates to) the newest available version.
  - Multiple installations: this package can only be installed in one location at a time. If the first installation is removed, this package must be reinstalled to restore gcloud access.
  - Shell detection: on OSX and Linux, this package relies on the `SHELL` environment variable. If this is not set correctly, `gcloud` may not be added to the user's path.
+ - This package runs a `postinstall` script. If `postinstall` scripts are not enabled (e.g. due to `npm install --ignore-scripts`), then this package will not install correctly.
 
 We plan to fix some of these caveats in a later release.
 
