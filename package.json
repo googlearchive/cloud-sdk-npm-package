@@ -1,7 +1,7 @@
 {
   "name": "@google-cloud/cloud-sdk",
   "description": "A metapackage that installs Google Cloud Platform's gcloud CLI",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "Apache Version 2.0",
   "repository": {
     "type": "git",
