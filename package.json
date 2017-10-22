@@ -1,7 +1,7 @@
 {
   "name": "@google-cloud/cloud-sdk",
   "description": "A metapackage that installs Google Cloud Platform's gcloud CLI",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "Apache Version 2.0",
   "repository": {
     "type": "git",
@@ -21,19 +21,19 @@
     "postinstall": "node ./main.js"
   },
   "devDependencies": {
-    "ava": "^0.19.1",
+    "ava": "^0.22.0",
     "proxyquire": "^1.8.0",
     "semistandard": "^11.0.0",
-    "sinon": "^2.3.5"
+    "sinon": "^4.0.1"
   },
   "optionalDependencies": {},
   "dependencies": {
     "child-process-promise": "^2.2.1",
-    "extract-zip": "^1.6.0",
-    "loglevel": "^1.4.1",
-    "request": "^2.81.0",
-    "request-promise": "^4.2.0",
-    "rimraf": "^2.6.1"
+    "extract-zip": "^1.6.5",
+    "loglevel": "^1.5.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "rimraf": "^2.6.2"
   },
   "keywords": [
     "Google",
