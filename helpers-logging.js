@@ -21,7 +21,7 @@ const childProcess = require('child_process');
 // Get constants
 const NPM_LOGLEVEL = childProcess.execSync(`npm config get loglevel`).toString().trim();
 
-// Helper function to get stdio config (for childProcess.execSync) as a function of NPM log level
+// Helper function to get stdio config (for childProcess.execSync) as a function of npm log level
 // @returns a dictionary compatible with childProcess.execSync's "stdio" parameter
 function getStdioConfig () {
   let stdioConfig = { stdio: ['inherit', 'inherit', 'inherit'] };
@@ -50,7 +50,7 @@ function getLoggerInstance () {
     logger.setLevel(LOGGER_LOGLEVEL);
   } else {
     logger.setLevel('warn');
-    logger.warn(`NPM log level '${NPM_LOGLEVEL}' is unsupported; using default of 'warn'`);
+    logger.warn(`npm log level '${NPM_LOGLEVEL}' is unsupported; using default of 'warn'`);
   }
   return logger;
 }
