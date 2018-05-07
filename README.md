@@ -2,7 +2,7 @@
 
 This package is deprecated, and is no longer being maintained.
 
-For new work on this check out the [gcloud Cloud Builder](https://github.com/GoogleCloudPlatform/cloud-builders/tree/master/gcloud).
+Check out the [Cloud SDK](https://cloud.google.com/sdk/) for operating system-specific installation instructions.
 
 
 # gcloud SDK package for NPM
