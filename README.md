@@ -1,3 +1,5 @@
+### This package is deprecated, and is no longer being maintained.
+
 # gcloud SDK package for NPM
 This package is an [NPM][npm] wrapper around the [gcloud SDK][gcloud-sdk] installer for [Google Cloud Platform][gcp]. It supports OSX, Windows, and Linux.
 
@@ -29,8 +31,9 @@ In addition to the standard package removal process, the following additional ar
 
 ## Project Status
 
-This project is currently in Alpha. As such, the direction of the project, its underlying
-design decisions, and/or Google's commitment to it may change rapidly and/or without prior notice.
+This project is **deprecated**, and is no longer being maintained.
+
+The direction of the project, its underlying design decisions, and/or Google's commitment to it may change rapidly and/or without prior notice.
 
 Furthermore, this is not an official Google product - experimental or otherwise.
 
