@@ -1,4 +1,9 @@
-### This package is deprecated, and is no longer being maintained.
+![status: inactive](https://img.shields.io/badge/status-inactive-red.svg)
+
+This package is deprecated, and is no longer being maintained.
+
+For new work on this check out the [gcloud Cloud Builder](https://github.com/GoogleCloudPlatform/cloud-builders/tree/master/gcloud).
+
 
 # gcloud SDK package for NPM
 This package is an [NPM][npm] wrapper around the [gcloud SDK][gcloud-sdk] installer for [Google Cloud Platform][gcp]. It supports OSX, Windows, and Linux.
